@@ -1,0 +1,59 @@
+html, body{
+  margin:0;
+  padding:0;
+  font-family: courier; /*'Droid Serif', serif;*/
+  color:#fff;
+  font-size: 14pt;
+  height:100%;
+  width:100%;
+}
+.navbar
+{
+  background-color:transparent;
+  border:none;
+}
+.navbar-toggle
+{
+  border:none;
+}
+
+.navbar-default .navbar-brand
+{
+  color:#ffffff;
+}
+.navbar-default .navbar-toggle
+{
+  color:#ffffff;
+}
+.navbar-default .navbar-nav>li>a
+{
+  color:#ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+  color:#ddd;
+}
+.navbar-default .navbar-nav>li>a:active
+{
+  color:#777;
+}
+
+
+.logo
+{
+  font-family: 'Quicksand', cursive;
+  font-size:2em;
+  padding:16px;
+}
+.logo:hover
+{
+  background-color:transparent;
+}
+.logo:active
+{
+  color:inherit;
+}
+.greenText
+{
+  color:#02E880;
+}

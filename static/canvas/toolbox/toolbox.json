@@ -1,0 +1,39 @@
+{
+  "toolbox" : {
+    "nav" : {
+      "display_name": "header",
+      "icon": "mdi-page-layout-header",
+      "code-block": "<nav class='navbar navbar-default col'>\n  <div class='container-fluid'>\n    <!-- Brand and toggle get grouped for better mobile display -->\n    <div class='navbar-header'>\n      <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false'>\n        <span class='sr-only'>Toggle navigation</span>\n        <span class='icon-bar'></span>\n        <span class='icon-bar'></span>\n        <span class='icon-bar'></span>\n      </button>\n      <a class='navbar-brand' href='#'>Brand</a>\n    </div>\n\n    <!-- Collect the nav links, forms, and other content for toggling -->\n    <div class='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>\n      <ul class='nav navbar-nav navbar-right'>\n        <li class='active'><a href='#'>Link <span class='sr-only'>(current)</span></a></li>\n        <li><a href='#'>Link</a></li>\n      </ul>\n    </div><!-- /.navbar-collapse -->\n  </div><!-- /.container-fluid -->\n</nav>"
+    },
+    "div" : {
+      "display_name": "container",
+      "icon": "mdi-format-float-none",
+      "code-block": "<div class='orangeBack'></div>"
+    },
+   "input_txt" : {
+      "display_name": "textbox",
+      "icon": "mdi-textbox",
+      "code-block": "<input type='text' value='default text'/>"
+    },
+    "ul" : {
+      "display_name": "list",
+      "icon": "mdi-format-list-bulleted",
+      "code-block": "<ul>\n\t<li>item 1</li>\n\t<li>item 2</li>\n\t<li>item 3</li>\n</ul>"
+    },
+    "img" : {
+      "display_name": "image",
+      "icon": "mdi-image",
+      "code-block": "<img src='https://unsplash.it/448/252' alt='Random Image'></img>"
+    },
+    "a" : {
+      "display_name": "link",
+      "icon": "mdi-link-variant",
+      "code-block": "<a href='#'>link</a>"
+    },
+    "drop_panel":{
+      "display_name": "panel",
+      "icon": "mdi-solid",
+      "code-block": "<div class='dropdown'>this is a box</div>"
+    }
+  }
+}

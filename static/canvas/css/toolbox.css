@@ -1,0 +1,140 @@
+.xbar
+{
+  /*height:1.5ex;*/
+  height:2em;
+  width:100%;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  margin:0;
+  background-color:#34DDDD;
+  color:#ffffff;
+  text-align:center;
+  vertical-align: top;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  cursor:pointer;
+}
+
+.xbar .close
+{
+  height:1em;
+  width:1em;
+  border-size:0px;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  background-color:#346666;
+  float:left;
+  cursor:pointer;
+  margin-left:0.5em;
+  
+}
+.xbar .close:hover
+{
+  background-color:#ff3333;
+}
+.xbar .close:active
+{
+  background-color:#f00000;
+}
+.xbar div.barTitle
+{
+  float:left;
+  text-align:center;
+  width:16.5em;
+}
+.toolbox-box
+{
+  width:100%;
+  position:relative;
+  overflow:auto;
+}
+.toolbox-item
+{
+  width:28%;
+  float:left;
+  margin-left:4%;
+  margin-top:1em;
+  text-align: center;
+  font-size: .6em;
+  color:#346666;
+  background-color:transparent;
+  padding-top:1em;
+  padding-bottom:1em;
+  border-bottom:solid 1px #34dddd;
+  cursor: pointer;
+  -webkit-transition: background-color 1s; /* For Safari 3.1 to 6.0 */
+  transition: background-color 1s;
+}
+.toolbox-item:hover
+{
+  background-color:#34dddd;
+}
+.toolbox-item:active
+{
+  background-color:#346666;
+  color:#ffffff;
+}
+.orangeBack
+{
+  position:relative;
+  background-color:orange;
+  height:5em;
+}
+
+span.mdi
+{
+  font-size:2em;
+}
+.arbitraryObject
+{
+  background-color:orange;
+  border:dotted 1px #333333;
+  cursor:move;
+  min-height:2em;
+  min-width:2em;
+}
+.mover
+{
+  position:absolute;
+  border:dotted 8px #346666;
+  zoom:.25;
+  opacity: 0.5;
+}
+.previewObj
+{
+  display:inline-block;
+  position:relative;
+  border:dotted 2px #346666;
+  border-radius:1em;
+  opacity:0.5;
+}
+img
+{
+  height:50%;
+  width:50%;
+}
+/*.button
+{
+  width:5em;
+  height:1em;
+  border-radius: 0.1em;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  text-align: center;
+}
+.div
+{
+  width:100%;
+}
+.link
+{
+  color:blue;
+  text-decoration: underline;
+  background-color:transparent;
+  float:left;
+}
+.label
+{
+  color:black;
+  background-color:transparent;
+  float:left;
+}*/

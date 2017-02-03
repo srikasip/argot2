@@ -1,0 +1,125 @@
+body{
+  background-color:#f2f2f2;
+}
+#siteindex
+{
+  float:none;
+  clear:both;
+  width:100%;
+  height:64px;
+  background-color:#d0d0d0;
+  display: none;
+}
+.pageblock
+{
+  border:1px #999999 solid;
+  background-color:#fff;
+  text-align:center;
+  vertical-align: middle;
+  float:left;
+  margin-left:10px;
+  margin-top:4px;
+  color:#000;
+  height:56px;
+  width:56px;
+  border-radius: 10px;
+  font-size:10pt;
+  cursor:pointer;
+
+}
+#newpage
+{
+  border:1px #999999 dashed;
+  text-align:center;
+  font-size:36pt;
+}
+
+#codeman{
+  position:absolute;
+  width:4em;
+  right:-1.5em;
+  top:0.5em;
+}
+
+#toolkit
+{
+  float:left;
+  width:15%;
+  height:100%;
+  background-color:#dfdfdf;
+}
+#canvas
+{
+  float:left;
+  width:70%;
+  height:100%;
+}
+
+#codewindow
+{
+  font-size:0.6em;
+  float:left;
+  width:14.5%;
+  height:100%;
+  background-color:#3d3d3d;
+  color:#02E880;
+  text-align:left;
+  font-family:courier;
+  padding-left:0.5%;
+  padding-top:0.5em;
+}
+.txt_coder_interaction
+{
+  background-color:transparent;
+  border:0px transparent;
+  color:#02E880;
+  font-family:courier;
+  font-size:1em;
+  border-bottom:1px #02E880;
+  width:100%;
+  height:2em;
+}
+#toolkit button
+{
+  width:40%;
+  height:10%;
+  margin-left:5%;
+  margin-top:1em;
+  background-color:#dfdfdf;
+  border:2px #999999 Solid;
+  border-radius:10px;
+  cursor: pointer;
+
+}
+#toolkit button:hover
+{
+  background-color:#f0f0f0;
+  border:2px #d0d0d0 Solid;
+}
+#toolkit button:active
+{
+  border:2px #999999 Solid; 
+}
+
+#toolkit .selectedMenu
+{
+  background-color:#f0f0f0;
+  border:2px #999999 Solid;  
+}
+#toolkit .selectedMenu:hover
+{
+  border:2px ##d0d0d0 Solid;
+}
+#toolkit .selectedMenu:active
+{
+  border:2px #999999 Solid;
+}
+
+.dom_obj
+{
+  height:3em;
+  width:5em;
+  border:1px #999 dashed;
+  background-color: orange;
+  cursor: move;
+}

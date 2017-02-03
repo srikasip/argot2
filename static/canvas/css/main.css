@@ -1,0 +1,71 @@
+html, body
+{
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  font-family:"Droid Serif";
+  font-size:14pt;
+  overflow:hidden;
+}
+.fancyFont
+{
+  font-family:"Quicksand";
+}
+.header
+{
+  /*height:3em;*/
+  width:100%;
+}
+.toolbar
+{
+  /*height:1em;*/
+  padding-top:0.4em;
+  width:100%;
+  /*border-bottom:1px Solid #eeeeee;*/
+}
+.grayback
+{
+  background-color:#eee;
+}
+.grayback input
+{
+  background-color:transparent;
+}
+.mainContent
+{
+  width:100%;
+  position:relative;
+}
+.canvas
+{
+  width:100%;
+  float:left;
+}
+.toolbox
+{
+  /*height:30em;*/
+  height:75%;
+  width:18em;
+  background-color: #ffffff;
+  border-radius:2px;
+  position:absolute;
+  right:1em;
+  bottom:-75%;
+  margin-bottom:2em;
+  overflow:auto;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  
+}
+.properties
+{
+  height:75%;
+  width:50%;
+  background-color:#fff;
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  overflow:auto;
+  display:none;
+}

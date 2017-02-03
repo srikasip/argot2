@@ -1,0 +1,84 @@
+/*Need to see if this is garbage?*/
+.dropdown-menu
+{
+  display:block;
+  position:static;
+  margin-bottom:5px;
+}
+#contextMenu {
+  position: absolute;
+  display:none;
+}
+
+/*This is not garbage*/
+.display_holder
+{
+  width:100%;
+  background-color: transparent;
+  display:none;
+}
+#iMac
+{
+  background-color:#111;
+  padding:25px;
+  border-radius:15px;
+  border:solid 3px #888b8d;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:16px;
+  position:relative;
+}
+#iPhone
+{
+  background-color:#111;
+  border:3px;
+  padding:15px;
+  border-radius:15px;
+}
+.display_canvas
+{
+  width:100%;
+  height:100%;
+  background-color:#fff;
+  text-align: left;
+  overflow:auto;
+}
+.camera_dot
+{
+  background-color: #32CD32;
+  height:6px;
+  width:6px;
+  border-radius: 3px;
+  position:absolute;
+  top:13px;
+  left:50%;
+  margin-left:-3px;
+}
+#mac_bottom
+{
+  border-bottom: 16px solid #888b8d;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  height: 0;
+  width: 30%;
+  position:absolute;
+  left:35%;
+  bottom:-19px;
+}
+#mac_bottom_two
+{
+  height:16px;
+  width:30%;
+  position:absolute;
+  left:35%;
+  bottom:-19px;
+  background-color:#888b8d;
+}
+.row div
+{
+  background-color:transparent;
+  border:1px dotted #888b8d;
+  min-height:10px;
+}
